@@ -8,4 +8,7 @@ This repository contains the "release" version of the DSpace code rather than th
 
 # Presentation
 
+[![GitPitch](https://gitpitch.com/assets/badge.svg)](https://gitpitch.com/terrywbradyC9/DSpace-rel-demo/webinar?grs=github)
+
+
 
