@@ -1,0 +1,3 @@
+target/
+dspace/target
+dspace/modules/*/target
