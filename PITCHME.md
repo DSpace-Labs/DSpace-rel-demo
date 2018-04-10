@@ -43,40 +43,39 @@ https://github.com/terrywbrady/info
 - You need a runtime environment for your code |
 - A server with tomcat and a postgres database (linux preferred) |
 - Docker or Vagrant containers (for developers) |
-- Cloud development environment like [Codenvy](http://codenvy.com) |
+- Cloud development environment like Codenvy (codenvy.com) |
   - For this presentation, Codenvy will be used |
+
++++
+
+### After the webinar, try it yourself!
   - [This page](https://github.com/DSpace-Labs/DSpace-codenvy/blob/master/README.md) describes how you can configure a site on Codenvy
 
 ---
-### Agenda
-- Options for loading content into DSpace |
-- Configuration customization |
-- Creating a custom DSpace theme |
-- Modifying the item submission process |
-- Modifying metadata fields to display |
-- Modifying facets (time permitting) |
-- Creating a custom crosswalk (time permitting) |
 
----
+### Understanding Ingest Options
+- Becoming comfortable with the ingest options for DSpace is a key way to make DSpace your own
+- We will review a couple of options
 
-### Options for loading content into DSpace
-- Import AIP File (exported metadata and bitstreams) |
-- Manually submit item |
-- Create items from metadata only |
-- Bulk update of metadata |
-- Other Options |
-  - SIP Import |
-  - OAI Ingest |
-  
-+++
++++ 
 
 ### Ingest into DSpace
 
 ![DSpace Ingest Options Illustration](presentation-files/DSpaceIngest.jpg)
 
-+++
 
-### Demo: Import AIP File (exported metadata and bitstreams)
+---
+### Overview
+
+- Demo 1. Ingest image collection from AIP files |
+  - Reconfigure item list options |
+- Demo 2. Ingest collection from Metadata |
+  - Customize metadata for collection |
+- Demo 3. Create custom theme
+
+---
+
+### Ingest Demo 1: Import Image Collection AIP Files 
 - _For time, this has already been run_
 - [Sample AIP Files with pictures of my dog](https://github.com/DSpace-Labs/DSpace-codenvy/tree/master/TestData)
 - [Create Administrator Script](https://github.com/DSpace-Labs/DSpace-codenvy/blob/master/Scripts/workspaceInit.sh#L34) 
@@ -84,19 +83,79 @@ https://github.com/terrywbrady/info
 
 +++
 
-### Demo: Manually submit item
+### Demo 1 - Tour the Collection
 
-- Submit item to Demo Collection
++++ 
+
+### Code 1 - Change item listing
+
+- dspace/config/dspace.cfg
+- many of the most common setting changes can be applied within this file
+  - example: turn on/off user registration
+
++++?code=dspace/config/dspace.dfg
+@[1896](Show bitstreams in file listing)
+
++++
+### Modify configuration to Show Thumbnails
+`xmlui.theme.mirage.item-list.emphasis = file`
+
++++ 
+
+### Rebuild System
+
+    cd ${DSPACE_SRC} || die "src dir ${DSPACE_SRC} does not exist"
+    cp ${LOCAL_CFG} . || die "error copying local: ${LOCAL_CFG}"
+    mvn ${MVN_TARGET} || die "maven failed"
+    cd dspace/target/dspace-installer || die "install dir not found"
+    ${TOMCAT} stop
+    ant update clean_backups || die "ant update failed"
+    ${TOMCAT} run
+
+@[1](Go to source directory)
+@[2](Local config file contains server specific settings)
+@[3](Run the maven build)
+@[4](Go to build directory)
+@[5](Stop tomcat)
+@[6](Install built files to server)
+@[7](Start Tomcat)
 
 +++
 
-### Demo: Create items from metadata only
+### Browse site and see thumbnails
+
+---
+
+### Ingest Demo 2A: Create items from metadata only
 
 - [Metadata Upload CSV](https://github.com/DSpace-Labs/DSpace-codenvy/blob/master/TestData/metadataUpload.csv)
 
 +++
 
-### Demo: Bulk update of metadata
+### Demo 2 - Tour the Collection
+
+- Note the facets that are present
+- Note the items that have been added
+- Manually submit an item to the collection
+
++++
+
+### Code 2A - Modify submission workflow
+
++++
+
+### Code 2B - Modify item summary page
+
++++
+
+### Code 2C - Modify facets
+
++++
+- Submit item to Demo Collection
+
+---
+
+### Ingest Demo 2B: Bulk update of metadata
 
 - Open report page: `/rest/static/reports/query.html`
 - Search for items with a title like "Demo%"
@@ -106,35 +165,12 @@ https://github.com/terrywbrady/info
 
 ---
 
-### Customize DSpace via Config File
-
-- xmlui.user.registration=false
-- webui.browse.thumbnail.show = false
-
-+++
-
-### Customize Language
-- Change repository name
-
----
-### Create custom theme
+### Demo 3: Create a Custom Theme
 
 - Change background colors
 - Add logo
 - Apply to a specific community
 
----
-### Modify the submission process
++++ 
 
-- Add custom field to ingest form
-
----
-### Modify data on a page via theme
-
-- Add new field to item display page
-
----
-### Modify crosswalk
-
----
-### Add custom facet
+### Code 3 - Define Custom Theme
