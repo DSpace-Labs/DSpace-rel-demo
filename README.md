@@ -6,8 +6,8 @@ See https://github.com/DSpace/DSpace for an overview of the DSpace project and f
 
 This repository contains the "release" version of the DSpace code rather than the complete code base.
 
-# Presentation
+# Presentation/Branch References
 
-This presentation was presented in the [Making DSpace 6 Your Own Webinar](http://www.duraspace.org/news/registration-open-%E2%80%9Cmaking-dspace-your-own%E2%80%9D-webinar)
+### Apr 2018 [Making DSpace 6 Your Own Webinar](http://www.duraspace.org/news/registration-open-%E2%80%9Cmaking-dspace-your-own%E2%80%9D-webinar)
 
-[![GitPitch](https://gitpitch.com/assets/badge.svg)](https://gitpitch.com/terrywbradyC9/DSpace-rel-demo/webinar?grs=github)
+- [![GitPitch](https://gitpitch.com/assets/badge.svg)](https://gitpitch.com/DSpace-Labs/DSpace-rel-demo/webinar?grs=github)
