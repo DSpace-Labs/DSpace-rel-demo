@@ -13,26 +13,22 @@ https://github.com/terrywbrady/info
 
 ### About Me
 
-+++
-
-### My Background - Georgetown
-
-![Digital Georgetown Institutional Repository](https://repository.library.georgetown.edu/themes/ir//images/ir-logo.png)
 - Software Developer for the Georgetown University Library
   - Lead developer for [DigitalGeorgetown](https://repository.library.georgetown.edu)
+  - ![Digital Georgetown Institutional Repository](https://repository.library.georgetown.edu/themes/ir//images/ir-logo.png)
 - DSpace Committer
 
 ---
 
-### DSpace Code
-- [DSpace 6x "Source" Code Branch](https://github.com/DSpace/DSpace/tree/dspace-6_x)
-- [DSpace 6.2 Release Packages](https://github.com/DSpace/DSpace/releases/tag/dspace-6.2)
+### DSpace Code Overview
+
+![DSpace Overlay Illustration](presentation-files/DSpace%20Overlays.jpg)
 
 +++
 
-### DSpace Code Overlay
-
-![DSpace Overlay Illustration](presentation-files/DSpace Overlays.jpg)
+### DSpace Code
+- [DSpace 6x "Source" Code Branch](https://github.com/DSpace/DSpace/tree/dspace-6_x)
+- [DSpace 6.2 Release Packages](https://github.com/DSpace/DSpace/releases/tag/dspace-6.2)
 
 +++
 
@@ -41,6 +37,7 @@ https://github.com/terrywbrady/info
   - This is what we will modify
 
 ---
+
 ### Running DSpace
 You need a runtime environment for your code
 - A server with tomcat and a postgres database (linux preferred)
@@ -74,7 +71,7 @@ You need a runtime environment for your code
 
 ### Ingest into DSpace
 
-(draw diagram)
+![DSpace Ingest Options Illustration](presentation-files/DSpaceIngest.jpg)
 
 +++
 
