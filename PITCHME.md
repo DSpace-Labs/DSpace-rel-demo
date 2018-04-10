@@ -27,6 +27,16 @@ https://github.com/terrywbrady/info
 ### DSpace Code
 - [DSpace 6x "Source" Code Branch](https://github.com/DSpace/DSpace/tree/dspace-6_x)
 - [DSpace 6.2 Release Packages](https://github.com/DSpace/DSpace/releases/tag/dspace-6.2)
+
++++
+
+### DSpace Code Overlay
+
+![DSpace Overlay Illustration](presentation-files/DSpace Overlays.jpg)
+
++++
+
+### DSpace Code
 - [DSpace 6.2 "Release" Code - For This Demo](https://github.com/DSpace-Labs/DSpace-rel-demo)
   - This is what we will modify
 
@@ -51,26 +61,68 @@ You need a runtime environment for your code
 
 ---
 
-## Load
+## Options for loading content into DSpace
+- Import AIP File (exported metadata and bitstreams)
+- Manually submit item
+- Create items from metadata only
+- Bulk update of metadata
+- Other Options
+  - SIP Import
+  - OAI Ingest
+  
++++
+
+### Ingest into DSpace
+
+(draw diagram)
+
++++
+
+### Demo: Import AIP File (exported metadata and bitstreams)
+
++++
+
+### Demo: Manually submit item
+
++++
+
+### Demo: Create items from metadata only
+
++++
+
+### Demo: Bulk update of metadata
+
 ---
-## Import AIP
+
+## Customize DSpace via Config File
+
+- xmlui.user.registration=false
+- webui.browse.thumbnail.show = false
+
++++
+
+### Customize Language
+- Change repository name
+
 ---
-## Manually submit
----
-## Import SIP
----
-## Import Metadata
----
-## Metadata Update
----
-## Customize via config file
----
-## Add theme, apply to a specific collection
+## Create custom theme
+
+- Change background colors
+- Add logo
+- Apply to a specific community
+
 ---
 ## Modify the submission process
+
+- Add custom field to ingest form
+
 ---
 ## Modify data on a page via theme
+
+- Add new field to item display page
+
 ---
 ## Modify crosswalk
+
 ---
 ## Add custom facet
