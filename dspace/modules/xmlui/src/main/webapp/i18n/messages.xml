@@ -2505,5 +2505,7 @@
 
     <!-- MAKING DSPACE YOUR OWN WEBNINAR ADDITIONS -->
     <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_type">Type</message>
-
+    <message key="xmlui.ArtifactBrowser.SimpleSearch.filter.type">Type</message>
+    <message key="xmlui.Discovery.AbstractSearch.type_type">Type</message>
+	
 </catalogue>
