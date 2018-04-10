@@ -141,6 +141,9 @@ https://github.com/terrywbrady/info
 
 ### Code 2B - Modify item summary page
 
+- Branch: webinar-code2b
+- https://github.com/DSpace-Labs/DSpace-rel-demo/pull/4
+
 +++
 
 ### Code 2C - Modify facets
