@@ -89,16 +89,8 @@ https://github.com/terrywbrady/info
 
 ### Code 1 - Change item listing
 
-- dspace/config/dspace.cfg
-- many of the most common setting changes can be applied within this file
-  - example: turn on/off user registration
-
-+++?code=dspace/config/dspace.dfg
-@[1896](Show bitstreams in file listing)
-
-+++
-### Modify configuration to Show Thumbnails
-`xmlui.theme.mirage.item-list.emphasis = file`
+- Branch: webinar-code1
+- https://github.com/DSpace-Labs/DSpace-rel-demo/pull/2/files
 
 +++ 
 
