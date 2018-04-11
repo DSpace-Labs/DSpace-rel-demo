@@ -12,7 +12,7 @@ var QueryReport = function() {
     //this.hasSorttable = function(){return true;}
 
     //Indicate if Password Authentication is supported
-    //this.makeAuthLink = function(){return true;};
+    this.makeAuthLink = function(){return true;};
     //Indicate if Shibboleth Authentication is supported
     //this.makeShibLink = function(){return true;};
 
