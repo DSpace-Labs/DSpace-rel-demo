@@ -21,6 +21,21 @@ https://github.com/terrywbrady/info
 
 ---
 
+### Presentation Tasks
+
+@ul
+
+- Demonstrate multiple ways to ingest content into DSpace
+- Code 1: Change browse display properties
+- Code 2a: Customize item submission process
+- Code 2b: Customize item metadata to display
+- Code 2c: Customize metadata navigation facets
+- Code 3: Create a collection-specific theme
+
+@ulend
+
+---
+
 ### DSpace Code Overview
 
 ![DSpace Overlay Illustration](presentation-files/DSpace%20Overlays.jpg)
@@ -55,6 +70,7 @@ https://github.com/terrywbrady/info
 
 ### After the webinar, try it yourself!
 - [This page](https://github.com/DSpace-Labs/DSpace-codenvy/blob/master/README.md) describes how you can configure a site on Codenvy
+- [Codenvy Factory for this demo](https://codenvy.io/dashboard/#/load-factory/factoryzf5xhtlskikjevyk)
 
 ---
 
