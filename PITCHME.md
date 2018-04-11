@@ -47,7 +47,7 @@ https://github.com/terrywbrady/info
 - A server with tomcat and a postgres database (linux preferred) 
 - Docker or Vagrant containers (for developers) 
 - Cloud development environment like Codenvy (codenvy.com) 
-  - For this presentation, Codenvy will be used 
+- For this presentation, Codenvy will be used 
 
 @ulend
 
@@ -75,9 +75,9 @@ https://github.com/terrywbrady/info
 @ul 
 
 - Demo 1. Ingest image collection from AIP files 
-  - Reconfigure item list options 
+- Reconfigure item list options 
 - Demo 2. Ingest collection from Metadata 
-  - Customize metadata for collection 
+- Customize metadata for collection 
 - Demo 3. Create custom theme
 
 @ulend
