@@ -41,7 +41,7 @@ https://github.com/terrywbrady/info
 
 ### Running DSpace
 
-@ol
+@ul
 
 - You need a runtime environment for your code 
 - A server with tomcat and a postgres database (linux preferred) 
@@ -49,7 +49,7 @@ https://github.com/terrywbrady/info
 - Cloud development environment like Codenvy (codenvy.com) 
 - For this presentation, Codenvy will be used 
 
-@olend
+@ulend
 
 +++
 
