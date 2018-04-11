@@ -34,6 +34,14 @@ https://github.com/terrywbrady/info
 
 @ulend
 
++++
+
+### About the presentation
+
+- Not all of the code changes will make immediate sense
+- The key is to see HOW the changes are made
+- Once you know HOW to change something in DSpace, other types of changes are easy to learn
+
 ---
 
 ### DSpace Code Overview
