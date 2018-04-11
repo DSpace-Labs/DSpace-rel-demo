@@ -147,6 +147,7 @@ https://github.com/terrywbrady/info
 - Branch: webinar-code2
 - https://github.com/DSpace-Labs/DSpace-rel-demo/pull/3/files
 - Rebuild system
+- Submit a new item to a collection
 
 +++
 
@@ -155,6 +156,7 @@ https://github.com/terrywbrady/info
 - Branch: webinar-code2b
 - https://github.com/DSpace-Labs/DSpace-rel-demo/pull/4
 - Rebuild system
+- View item page
 
 +++
 
@@ -164,9 +166,6 @@ https://github.com/terrywbrady/info
 - https://github.com/DSpace-Labs/DSpace-rel-demo/pull/5
 - Rebuild system
 - Re-index content if needed `[dspace-install]/bin/dspace index-discovery -b`
-
-+++
-- Submit item to Demo Collection
 
 ---
 
@@ -189,3 +188,22 @@ https://github.com/terrywbrady/info
 +++ 
 
 ### Code 3 - Define Custom Theme
+
+- Branch: webinar-code3
+- https://github.com/DSpace-Labs/DSpace-rel-demo/pull/6
+
+---
+
+### Questions
+
+--- 
+
+### Thank You
+
+Terry Brady
+
+Georgetown University Library
+
+https://github.com/terrywbrady/info
+
+![](https://www.library.georgetown.edu/sites/default/files/library-logo.png)
