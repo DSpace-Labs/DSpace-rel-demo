@@ -149,12 +149,14 @@ https://github.com/terrywbrady/info
     ant update clean_backups || die "ant update failed"
     ${TOMCAT} run
 
-@[1](Go to source directory)
-@[2](Local config file contains server specific settings)
-@[3](Run the maven build)
-@[4](Go to build directory)
-@[5](Stop tomcat)
-@[6](Install built files to server)
+@[2-7](Codeny workspace config settings)
+@[10](Tomcat server path)
+@[13](Go to source directory)
+@[14](Local config file contains server specific settings)
+@[15](Run the maven build)
+@[16](Go to build directory)
+@[17](Stop tomcat)
+@[18](Install built files to server)
 @[7](Start Tomcat)
 
 +++
