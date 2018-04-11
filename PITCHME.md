@@ -151,13 +151,13 @@ https://github.com/terrywbrady/info
 
 @[2-7](Codeny workspace config settings)
 @[10](Tomcat server path)
-@[13](Go to source directory)
-@[14](Local config file contains server specific settings)
-@[15](Run the maven build)
-@[16](Go to build directory)
-@[17](Stop tomcat)
-@[18](Install built files to server)
-@[7](Start Tomcat)
+@[12](Go to source directory)
+@[13](Local config file contains server specific settings)
+@[14](Run the maven build)
+@[15](Go to build directory)
+@[16](Stop tomcat)
+@[17](Install built files to server)
+@[18](Start Tomcat)
 
 +++
 
