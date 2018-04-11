@@ -54,7 +54,7 @@ https://github.com/terrywbrady/info
 +++
 
 ### After the webinar, try it yourself!
-  - [This page](https://github.com/DSpace-Labs/DSpace-codenvy/blob/master/README.md) describes how you can configure a site on Codenvy
+- [This page](https://github.com/DSpace-Labs/DSpace-codenvy/blob/master/README.md) describes how you can configure a site on Codenvy
 
 ---
 
@@ -81,6 +81,7 @@ https://github.com/terrywbrady/info
 - Demo 3. Create custom theme
 
 @ulend
+
 ---
 
 ### Ingest Demo 1: Import Image Collection AIP Files 
