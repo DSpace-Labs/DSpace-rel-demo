@@ -1,4 +1,4 @@
-# Making DSpace Your Own
+## Making DSpace Your Own
 
 Terry Brady
 
@@ -108,8 +108,9 @@ https://github.com/terrywbrady/info
 
 ---
 
-### Ingest Demo 1: Import Image Collection AIP Files 
+### Ingest 1: Import Image Collection AIP Files 
 - _For time, this has already been run_
+- AIP Ingests preserve handle ids
 - [Sample AIP Files with pictures of my dog](https://github.com/DSpace-Labs/DSpace-codenvy/tree/master/TestData)
 - [Create Administrator Script](https://github.com/DSpace-Labs/DSpace-codenvy/blob/master/Scripts/workspaceInit.sh#L34) 
 - [Data Load Script](https://github.com/DSpace-Labs/DSpace-codenvy/blob/master/Scripts/workspaceInit.sh#L36-L43) 
@@ -165,7 +166,7 @@ https://github.com/terrywbrady/info
 
 ---
 
-### Ingest Demo 2A: Create items from metadata only
+### Ingest 2A: Create items from metadata only
 
 - [Metadata Upload CSV](https://github.com/DSpace-Labs/DSpace-codenvy/blob/master/TestData/metadataUpload.csv)
 
@@ -206,7 +207,7 @@ https://github.com/terrywbrady/info
 
 ---
 
-### Ingest Demo 2B: Bulk update of metadata
+### Ingest 2C: Bulk update of metadata
 
 - Open report page: `/rest/static/reports/query.html`
 - Search for items with a title like "Demo%"
