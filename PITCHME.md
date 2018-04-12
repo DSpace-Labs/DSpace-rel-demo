@@ -128,6 +128,7 @@ https://github.com/terrywbrady/info
 - Rebuild system
 
 +++?code=https://raw.githubusercontent.com/DSpace-Labs/DSpace-rel-demo/webinar-code1/dspace/config/dspace.cfg
+@(dspace/config/dspace.cfg)
 @[1896](Turn on thumbnail view in xmlui)
 
 +++ 
@@ -191,6 +192,7 @@ https://github.com/terrywbrady/info
 - Submit a new item to a collection
 
 +++?code=https://raw.githubusercontent.com/DSpace-Labs/DSpace-rel-demo/webinar-code2/dspace/config/input-forms.xml
+@(dspace/config/input-forms.xml)
 @[74-84](This input field is moved towards the top)
 @[79](Type field label change)
 @[82](Type field defined as mandatory)
@@ -208,9 +210,9 @@ https://github.com/terrywbrady/info
 
 ### Code change - Graft to Overlay Area
 - Copy the following from the source branch
-  - *dspace-xmlui*/src/main/webapp/themes/Mirage/Mirage.xsl
+  - **dspace-xmlui**/src/main/webapp/themes/Mirage/Mirage.xsl
 - And graft it into the overlay area
-  - *dspace/modules/xmlui*/src/main/webapp/themes/Mirage/Mirage.xsl
+  - **dspace/modules/xmlui**/src/main/webapp/themes/Mirage/Mirage.xsl
 - Add the item summary display template from the following file
   - dspace-xmlui/src/main/webapp/themes/Mirage/lib/xsl/aspect/artifactbrowser/item-view.xsl
   
@@ -219,7 +221,7 @@ https://github.com/terrywbrady/info
 @[244-261](Add block to show subject field on page)
 @[263-279](Add block to show type field)
 @[282](Update field sequence)
-@[293](Update field sequence)
+@[294](Update field sequence)
 
 +++
 
