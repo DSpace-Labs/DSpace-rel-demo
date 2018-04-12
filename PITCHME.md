@@ -117,9 +117,11 @@ https://github.com/terrywbrady/info
 
 +++
 
-### Demo 1 - Tour the Collection
+### Open Site
 
-+++ 
+---
+
+### Demo 1 - Modify Item List Navigation
 
 ### Code 1 - Change item listing
 
@@ -127,8 +129,10 @@ https://github.com/terrywbrady/info
 - [Pull Request](https://github.com/DSpace-Labs/DSpace-rel-demo/pull/2/files)
 - Rebuild system
 
++++?image=presentation/code1.png
+
 +++?code=https://raw.githubusercontent.com/DSpace-Labs/DSpace-rel-demo/webinar-code1/dspace/config/dspace.cfg
-@(dspace/config/dspace.cfg)
+dspace/config/dspace.cfg
 @[1896](Turn on thumbnail view in xmlui)
 
 +++ 
@@ -182,7 +186,7 @@ https://github.com/terrywbrady/info
 - Note the items that have been added
 - Manually submit an item to the collection
 
-+++
+---
 
 ### Code 2A - Modify submission workflow
 
@@ -191,8 +195,10 @@ https://github.com/terrywbrady/info
 - Rebuild system
 - Submit a new item to a collection
 
++++?image=presentation/code2a.png
+
 +++?code=https://raw.githubusercontent.com/DSpace-Labs/DSpace-rel-demo/webinar-code2/dspace/config/input-forms.xml
-@(dspace/config/input-forms.xml)
+dspace/config/input-forms.xml
 @[74-84](This input field is moved towards the top)
 @[79](Type field label change)
 @[82](Type field defined as mandatory)
@@ -206,6 +212,8 @@ https://github.com/terrywbrady/info
 - Rebuild system
 - View item page
 
++++?image=presentation/code2b.png
+
 +++
 
 ### Code change - Graft to Overlay Area
@@ -217,6 +225,7 @@ https://github.com/terrywbrady/info
   - dspace-xmlui/src/main/webapp/themes/Mirage/lib/xsl/aspect/artifactbrowser/item-view.xsl
   
 +++?code=https://raw.githubusercontent.com/DSpace-Labs/DSpace-rel-demo/webinar-code2b/dspace/modules/xmlui/src/main/webapp/themes/Mirage/Mirage.xsl
+themes/Mirage/Mirage.xsl
 @[46](Item summary view template)
 @[244-261](Add block to show subject field on page)
 @[263-279](Add block to show type field)
@@ -232,7 +241,10 @@ https://github.com/terrywbrady/info
 - Rebuild system
 - Re-index content if needed `[dspace-install]/bin/dspace index-discovery -b`
 
++++?image=presentation/code2c.png
+
 +++?code=https://raw.githubusercontent.com/DSpace-Labs/DSpace-rel-demo/webinar-code2c/dspace/config/spring/api/discovery.xml
+dspace/config/spring/api/discovery.xml
 @[404-416](Define facet field for type)
 @[99](Add new facet to sidebar)
 @[112](Add new facet to advanced search filter list)
@@ -246,6 +258,7 @@ https://github.com/terrywbrady/info
   - *dspace/modules/xmlui*/src/main/webapp/i18n/messages.xml
 
 +++?code=https://raw.githubusercontent.com/DSpace-Labs/DSpace-rel-demo/webinar-code2c/dspace/modules/xmlui/src/main/webapp/i18n/messages.xml
+i18n/messages.xml
 @[2506-2509](Add language/translation for the new facet)
 
 ---
@@ -273,6 +286,8 @@ https://github.com/terrywbrady/info
 - Branch: webinar-code3
 - [Pull Request](https://github.com/DSpace-Labs/DSpace-rel-demo/pull/6)
 
++++?image=presentation/code3.png
+
 +++
 
 ### Code change - Graft to Overlay Area
@@ -282,14 +297,17 @@ https://github.com/terrywbrady/info
   - *dspace/modules/xmlui*/src/main/webapp/themes/*Demo*/sitemap.xmap
 
 +++?code=https://raw.githubusercontent.com/DSpace-Labs/DSpace-rel-demo/webinar-code3/dspace/modules/xmlui/src/main/webapp/themes/Demo/sitemap.xmap
+themes/Demo/sitemap.xmap
 @[81-82](Add custom css demo.css)
 @[103-104](Reuse the Mirage.xsl stylesheet)
 @[125-130](Reference Mirage paths for most resources)
 
 +++?code=https://raw.githubusercontent.com/DSpace-Labs/DSpace-rel-demo/webinar-code3/dspace/modules/xmlui/src/main/webapp/themes/Demo/demo.css
+themes/Demo/demo.css
 @[2-4](Change background color)
 
 +++?code=https://raw.githubusercontent.com/DSpace-Labs/DSpace-rel-demo/webinar-code3/dspace/config/xmlui.xconf
+dspace/config/xmlui.xconf
 @[157](Set collection-specific theme for a specific handle)
 
 ---
