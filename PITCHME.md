@@ -69,7 +69,7 @@ https://github.com/terrywbrady/info
 
 - You need a runtime environment for your code 
 - A server with tomcat and a postgres database (linux preferred) 
-- Docker or Vagrant containers (for developers) 
+- Docker or Vagrant containers (development tools) 
 - Cloud development environment like Codenvy (codenvy.com) 
 - For this presentation, Codenvy will be used 
 
@@ -79,7 +79,7 @@ https://github.com/terrywbrady/info
 
 ### After the webinar, try it yourself!
 - [This page](https://github.com/DSpace-Labs/DSpace-codenvy/blob/master/README.md) describes how you can configure a site on Codenvy
-- [Codenvy Factory for this demo](https://codenvy.io/dashboard/#/load-factory/factoryzf5xhtlskikjevyk)
+- [Codenvy Factory for this demo](https://codenvy.io/dashboard/#/load-factory/factoryk1vrec8gxat0diz6)
 
 ---
 
@@ -99,18 +99,24 @@ https://github.com/terrywbrady/info
 - _For time, this has already been run_
 - AIP Ingests preserve handle ids
 - [Sample AIP Files with pictures of my dog](https://github.com/DSpace-Labs/DSpace-codenvy/tree/master/TestData)
-- [Create Administrator Script](https://github.com/DSpace-Labs/DSpace-codenvy/blob/master/Scripts/workspaceInit.sh#L34) 
-- [Data Load Script](https://github.com/DSpace-Labs/DSpace-codenvy/blob/master/Scripts/workspaceInit.sh#L36-L43) 
+
++++?code=https://raw.githubusercontent.com/DSpace-Labs/DSpace-codenvy/master/Scripts/workspaceInit.sh
+Workspace initialization script - already run
+@[34](Before ingesting content, we need an administrator id)
+@[36-43](Data Load Script)
 
 +++
 
-### Open Site
+### Open Site and Navigate to Sample Images
+![Live Demo Image](presentation-files/LiveDemo.png)
 
 ---
 
 ### Demo 1 - Modify Item List Navigation
 
-### Code 1 - Change item listing
++++ 
+
+### Code 1 - Change item navigation view
 
 - Branch: webinar-code1
 - [Pull Request](https://github.com/DSpace-Labs/DSpace-rel-demo/pull/2/files)
@@ -121,6 +127,12 @@ https://github.com/terrywbrady/info
 +++?code=https://raw.githubusercontent.com/DSpace-Labs/DSpace-rel-demo/webinar-code1/dspace/config/dspace.cfg
 dspace/config/dspace.cfg
 @[1896](Turn on thumbnail view in xmlui)
+
++++
+
+### dspace.cfg
+- This file contains hundreds of properties that can be modified
+- Many of the most common customization tasks are captured in this file
 
 +++ 
 
@@ -158,6 +170,7 @@ dspace/config/dspace.cfg
 +++
 
 ### Browse site and see thumbnails
+![Live Demo Image](presentation-files/LiveDemo.png)
 
 ---
 
@@ -168,7 +181,7 @@ dspace/config/dspace.cfg
 +++
 
 ### Demo 2 - Tour the Collection
-
+![Live Demo Image](presentation-files/LiveDemo.png)
 - Note the facets that are present
 - Note the items that have been added
 - Manually submit an item to the collection
@@ -189,6 +202,10 @@ dspace/config/input-forms.xml
 @[74-84](This input field is moved towards the top)
 @[79](Type field label change)
 @[82](Type field defined as mandatory)
+
++++
+
+![Live Demo Image](presentation-files/LiveDemo.png)
 
 ---
 
@@ -219,6 +236,10 @@ themes/Mirage/Mirage.xsl
 @[282](Update field sequence)
 @[294](Update field sequence)
 
++++
+
+![Live Demo Image](presentation-files/LiveDemo.png)
+
 ---
 
 ### Code 2C - Modify facets
@@ -248,6 +269,10 @@ dspace/config/spring/api/discovery.xml
 i18n/messages.xml
 @[2506-2509](customize/translate name for new facet)
 
++++
+
+![Live Demo Image](presentation-files/LiveDemo.png)
+
 ---
 
 ### Ingest 2C: Bulk update of metadata
@@ -257,6 +282,10 @@ i18n/messages.xml
 - Show type field
 - Add type to CSV file
 - Upload metadata file
+
++++
+
+![Live Demo Image](presentation-files/LiveDemo.png)
 
 ---
 
@@ -296,6 +325,10 @@ themes/Demo/demo.css
 +++?code=https://raw.githubusercontent.com/DSpace-Labs/DSpace-rel-demo/webinar-code3/dspace/config/xmlui.xconf
 dspace/config/xmlui.xconf
 @[157](Set collection-specific theme for a specific handle)
+
++++
+
+![Live Demo Image](presentation-files/LiveDemo.png)
 
 ---
 
