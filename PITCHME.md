@@ -27,9 +27,10 @@ https://github.com/terrywbrady/info
 
 - Demonstrate multiple ways to ingest content into DSpace
 - Code 1: Change browse display properties
-- Code 2a: Customize item submission process
-- Code 2b: Customize item metadata to display
-- Code 2c: Customize metadata navigation facets
+- Code 2: Change Collection Metadata
+  - 2a: Customize item submission process
+  - 2b: Customize item metadata to display
+  - 2c: Customize metadata navigation facets
 - Code 3: Create a collection-specific theme
 
 @ulend
@@ -91,20 +92,6 @@ https://github.com/terrywbrady/info
 ### Ingest into DSpace
 
 ![DSpace Ingest Options Illustration](presentation-files/DSpaceIngest.jpg)
-
-
----
-### Overview
-
-@ul 
-
-- Demo 1. Ingest image collection from AIP files 
-- Reconfigure item list options 
-- Demo 2. Ingest collection from Metadata 
-- Customize metadata for collection 
-- Demo 3. Create custom theme
-
-@ulend
 
 ---
 
