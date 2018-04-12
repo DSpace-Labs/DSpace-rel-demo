@@ -2,3 +2,4 @@ local.cfg
 target/
 dspace/target
 dspace/modules/*/target
+.project

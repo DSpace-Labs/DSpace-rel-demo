@@ -124,8 +124,11 @@ https://github.com/terrywbrady/info
 ### Code 1 - Change item listing
 
 - Branch: webinar-code1
-- https://github.com/DSpace-Labs/DSpace-rel-demo/pull/2/files
+- [Pull Request](https://github.com/DSpace-Labs/DSpace-rel-demo/pull/2/files)
 - Rebuild system
+
++++?code=https://github.com/DSpace-Labs/DSpace-rel-demo/blob/webinar-code1/dspace/config/dspace.cfg
+@[1896](Turn on thumbnail view in xmlui)
 
 +++ 
 
@@ -183,7 +186,7 @@ https://github.com/terrywbrady/info
 ### Code 2A - Modify submission workflow
 
 - Branch: webinar-code2
-- https://github.com/DSpace-Labs/DSpace-rel-demo/pull/3/files
+- [Pull Request](https://github.com/DSpace-Labs/DSpace-rel-demo/pull/3/files)
 - Rebuild system
 - Submit a new item to a collection
 
@@ -192,7 +195,7 @@ https://github.com/terrywbrady/info
 ### Code 2B - Modify item summary page
 
 - Branch: webinar-code2b
-- https://github.com/DSpace-Labs/DSpace-rel-demo/pull/4
+- [Pull Request](https://github.com/DSpace-Labs/DSpace-rel-demo/pull/4)
 - Rebuild system
 - View item page
 
@@ -201,7 +204,7 @@ https://github.com/terrywbrady/info
 ### Code 2C - Modify facets
 
 - Branch: webinar-code2c
-- https://github.com/DSpace-Labs/DSpace-rel-demo/pull/5
+- [Pull Request](https://github.com/DSpace-Labs/DSpace-rel-demo/pull/5)
 - Rebuild system
 - Re-index content if needed `[dspace-install]/bin/dspace index-discovery -b`
 
@@ -228,7 +231,7 @@ https://github.com/terrywbrady/info
 ### Code 3 - Define Custom Theme
 
 - Branch: webinar-code3
-- https://github.com/DSpace-Labs/DSpace-rel-demo/pull/6
+- [Pull Request](https://github.com/DSpace-Labs/DSpace-rel-demo/pull/6)
 
 ---
 
