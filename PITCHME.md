@@ -23,17 +23,13 @@ https://github.com/terrywbrady/info
 
 ### Presentation Tasks
 
-@ul
-
 - Demonstrate multiple ways to ingest content into DSpace
 - Code 1: Change browse display properties
 - Code 2: Change Collection Metadata
-  ----> 2a: Customize item submission process
-  ----> 2b: Customize item metadata to display
-  ----> 2c: Customize metadata navigation facets
+  - 2a: Customize item submission process
+  - 2b: Customize item metadata to display
+  - 2c: Customize metadata navigation facets
 - Code 3: Create a collection-specific theme
-
-@ulend
 
 +++
 
