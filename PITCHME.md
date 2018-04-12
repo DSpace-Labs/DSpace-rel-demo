@@ -257,9 +257,14 @@ dspace/config/spring/api/discovery.xml
 - And graft it into the overlay area
   - *dspace/modules/xmlui*/src/main/webapp/i18n/messages.xml
 
-+++?code=https://raw.githubusercontent.com/DSpace-Labs/DSpace-rel-demo/webinar-code2c/dspace/modules/xmlui/src/main/webapp/i18n/messages.xml
++++
+
+    <!-- MAKING DSPACE YOUR OWN WEBNINAR ADDITIONS -->
+    <message key="xmlui.ArtifactBrowser.AdvancedSearch.type_type">Type</message>
+    <message key="xmlui.ArtifactBrowser.SimpleSearch.filter.type">Type</message>
+    <message key="xmlui.Discovery.AbstractSearch.type_type">Type</message>
+
 i18n/messages.xml
-@[2506-2509](Add language/translation for the new facet)
 
 ---
 
