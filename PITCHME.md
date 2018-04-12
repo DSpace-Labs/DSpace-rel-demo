@@ -203,7 +203,7 @@ dspace/config/input-forms.xml
 @[79](Type field label change)
 @[82](Type field defined as mandatory)
 
-+++
+---
 
 ### Code 2B - Modify item summary page
 
@@ -227,12 +227,12 @@ dspace/config/input-forms.xml
 +++?code=https://raw.githubusercontent.com/DSpace-Labs/DSpace-rel-demo/webinar-code2b/dspace/modules/xmlui/src/main/webapp/themes/Mirage/Mirage.xsl
 themes/Mirage/Mirage.xsl
 @[46](Item summary view template)
-@[244](Add block to show subject field on page)
+@[245](Add block to show subject field on page)
 @[263](Add block to show type field)
 @[282](Update field sequence)
 @[294](Update field sequence)
 
-+++
+---
 
 ### Code 2C - Modify facets
 
@@ -257,7 +257,7 @@ dspace/config/spring/api/discovery.xml
 - And graft it into the overlay area
   - *dspace/modules/xmlui*/src/main/webapp/i18n/messages.xml
 
-+++?code=https://raw.githubusercontent.com/DSpace-Labs/DSpace-rel-demo/webinar-code2b/dspace/modules/xmlui/src/main/webapp/i18n/messages.xml&lang=xml
++++?code=https://raw.githubusercontent.com/DSpace-Labs/DSpace-rel-demo/webinar-code2c/dspace/modules/xmlui/src/main/webapp/i18n/messages.xml&lang=xml
 @[2506-2509](test)
 
 +++
