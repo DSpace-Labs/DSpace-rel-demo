@@ -227,8 +227,8 @@ dspace/config/input-forms.xml
 +++?code=https://raw.githubusercontent.com/DSpace-Labs/DSpace-rel-demo/webinar-code2b/dspace/modules/xmlui/src/main/webapp/themes/Mirage/Mirage.xsl
 themes/Mirage/Mirage.xsl
 @[46](Item summary view template)
-@[244-261](Add block to show subject field on page)
-@[263-279](Add block to show type field)
+@[244](Add block to show subject field on page)
+@[263](Add block to show type field)
 @[282](Update field sequence)
 @[294](Update field sequence)
 
@@ -256,6 +256,9 @@ dspace/config/spring/api/discovery.xml
   - *dspace-xmlui*/src/main/webapp/i18n/messages.xml
 - And graft it into the overlay area
   - *dspace/modules/xmlui*/src/main/webapp/i18n/messages.xml
+
++++?code=https://raw.githubusercontent.com/DSpace-Labs/DSpace-rel-demo/webinar-code2b/dspace/modules/xmlui/src/main/webapp/i18n/messages.xml&lang=xml
+@[2506-2509](test)
 
 +++
 
@@ -301,7 +304,7 @@ i18n/messages.xml
 - And graft it into the overlay area
   - *dspace/modules/xmlui*/src/main/webapp/themes/*Demo*/sitemap.xmap
 
-+++?code=https://raw.githubusercontent.com/DSpace-Labs/DSpace-rel-demo/webinar-code3/dspace/modules/xmlui/src/main/webapp/themes/Demo/sitemap.xmap
++++?code=https://raw.githubusercontent.com/DSpace-Labs/DSpace-rel-demo/webinar-code3/dspace/modules/xmlui/src/main/webapp/themes/Demo/sitemap.xmap&lang=xml
 themes/Demo/sitemap.xmap
 @[81-82](Add custom css demo.css)
 @[103-104](Reuse the Mirage.xsl stylesheet)
