@@ -129,7 +129,7 @@ https://github.com/terrywbrady/info
 - [Pull Request](https://github.com/DSpace-Labs/DSpace-rel-demo/pull/2/files)
 - Rebuild system
 
-+++?image=presentation/code1.png
++++?image=presentation-files/code1.png
 
 +++?code=https://raw.githubusercontent.com/DSpace-Labs/DSpace-rel-demo/webinar-code1/dspace/config/dspace.cfg
 dspace/config/dspace.cfg
@@ -195,7 +195,7 @@ dspace/config/dspace.cfg
 - Rebuild system
 - Submit a new item to a collection
 
-+++?image=presentation/code2a.png
++++?image=presentation-files/code2a.png
 
 +++?code=https://raw.githubusercontent.com/DSpace-Labs/DSpace-rel-demo/webinar-code2/dspace/config/input-forms.xml
 dspace/config/input-forms.xml
@@ -212,7 +212,7 @@ dspace/config/input-forms.xml
 - Rebuild system
 - View item page
 
-+++?image=presentation/code2b.png
++++?image=presentation-files/code2b.png
 
 +++
 
@@ -241,7 +241,7 @@ themes/Mirage/Mirage.xsl
 - Rebuild system
 - Re-index content if needed `[dspace-install]/bin/dspace index-discovery -b`
 
-+++?image=presentation/code2c.png
++++?image=presentation-files/code2c.png
 
 +++?code=https://raw.githubusercontent.com/DSpace-Labs/DSpace-rel-demo/webinar-code2c/dspace/config/spring/api/discovery.xml
 dspace/config/spring/api/discovery.xml
@@ -286,7 +286,7 @@ i18n/messages.xml
 - Branch: webinar-code3
 - [Pull Request](https://github.com/DSpace-Labs/DSpace-rel-demo/pull/6)
 
-+++?image=presentation/code3.png
++++?image=presentation-files/code3.png
 
 +++
 
