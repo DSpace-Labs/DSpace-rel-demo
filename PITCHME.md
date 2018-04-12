@@ -205,6 +205,7 @@ dspace/config/input-forms.xml
 
 +++
 
+### Run the item submission process and see the modified input field
 ![Live Demo Image](presentation-files/LiveDemo.png)
 
 ---
@@ -238,6 +239,7 @@ themes/Mirage/Mirage.xsl
 
 +++
 
+### Note the new field on the item summary page
 ![Live Demo Image](presentation-files/LiveDemo.png)
 
 ---
@@ -271,6 +273,7 @@ i18n/messages.xml
 
 +++
 
+### Note the presence of the new facet
 ![Live Demo Image](presentation-files/LiveDemo.png)
 
 ---
@@ -285,6 +288,7 @@ i18n/messages.xml
 
 +++
 
+### Note the additional facet counts
 ![Live Demo Image](presentation-files/LiveDemo.png)
 
 ---
@@ -328,7 +332,9 @@ dspace/config/xmlui.xconf
 
 +++
 
+### View the new collection theme
 ![Live Demo Image](presentation-files/LiveDemo.png)
+- Note that the new theme is scoped only to one collection
 
 ---
 
