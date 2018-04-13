@@ -167,6 +167,27 @@ dspace/config/dspace.cfg
 @[17](Install built files to server)
 @[18](Start Tomcat)
 
++++?code=dspace/config/dspace.cfg
+@[19](Basic System Config: directories, servers, email, database)
+@[182](DOI Configuration)
+@[227](Handle Configuration)
+@[263](Default Permissions for Collection Administrators)
+@[341](Media Plugins)
+@[431](Crosswalk Configuration)
+@[696](Named Embargo Policy Configuration)
+@[782](Metadata hide configuration)
+@[800](Item Submission Configration)
+@[823](Creative Commons)
+@[870](Thumbnails)
+@[1261](RSS)
+@[1342](Open Search)
+@[1405](Sitemaps)
+@[1422](Sherpa/Romeo)
+@[1434](Authority Control)
+@[1590](JSPUI Config)
+@[1828](XMLUI Config)
+### While the build is running...
+
 +++
 
 ### Browse site and see thumbnails
@@ -192,8 +213,6 @@ dspace/config/dspace.cfg
 
 - Branch: webinar-code2
 - [Pull Request](https://github.com/DSpace-Labs/DSpace-rel-demo/pull/3/files)
-- Rebuild system
-- Submit a new item to a collection
 
 +++?image=presentation-files/code2a.png
 
@@ -205,17 +224,10 @@ dspace/config/input-forms.xml
 
 +++
 
-### Run the item submission process and see the modified input field
-![Live Demo Image](presentation-files/LiveDemo.png)
-
----
-
 ### Code 2B - Modify item summary page
 
 - Branch: webinar-code2b
 - [Pull Request](https://github.com/DSpace-Labs/DSpace-rel-demo/pull/4)
-- Rebuild system
-- View item page
 
 +++?image=presentation-files/code2b.png
 
@@ -237,11 +249,6 @@ themes/Mirage/Mirage.xsl
 @[282](Update field sequence)
 @[294](Update field sequence)
 
-+++
-
-### Note the new field on the item summary page
-![Live Demo Image](presentation-files/LiveDemo.png)
-
 ---
 
 ### Code 2C - Modify facets
@@ -249,7 +256,6 @@ themes/Mirage/Mirage.xsl
 - Branch: webinar-code2c
 - [Pull Request](https://github.com/DSpace-Labs/DSpace-rel-demo/pull/5)
 - Rebuild system
-- Re-index content if needed `[dspace-install]/bin/dspace index-discovery -b`
 
 +++?image=presentation-files/code2c.png
 
@@ -273,18 +279,23 @@ i18n/messages.xml
 
 +++
 
-### Note the presence of the new facet
+### While the build runs...
+- Here are some of our examples of **facet** customization
+- [Georgetown Institutional Repository](https://repository.library.georgetown.edu/handle/10822/1)
+- [MOOC Collection - Custom Facets](https://repository.library.georgetown.edu/handle/10822/710899)
+- [Dean Krogh Collection - Custom Facets and Video Integration](https://repository.library.georgetown.edu/handle/10822/549457)
+- [Court Records and Briefs](https://repository.library.georgetown.edu/handle/10822/1043058)
+
++++
+
+### Note the presence of the dc.type field
+
 ![Live Demo Image](presentation-files/LiveDemo.png)
 
----
-
-### Ingest 2C: Bulk update of metadata
-
-- Open report page: `/rest/static/reports/query.html`
-- Search for items with a title like "Demo%"
-- Show type field
-- Add type to CSV file
-- Upload metadata file
+- Submit a new item, note that the field is now mandatory
+- Look for type and subject on the item summary page
+- Look for the type facet
+- Re-index content if needed `[dspace-install]/bin/dspace index-discovery -b`
 
 +++
 
@@ -332,8 +343,18 @@ dspace/config/xmlui.xconf
 
 +++
 
+### While the build runs...
+- Here are some of our examples of **theme** customization
+- [Georgetown Institutional Repository](https://repository.library.georgetown.edu/handle/10822/1)
+- [Art Collections - Custom Metadata](https://repository.library.georgetown.edu/handle/10822/1040544)
+- [DC Historic Preservation - Markdown Formatting](https://repository.library.georgetown.edu/handle/10822/1043014)
+- [Cartoon collection - IIIF Integration](https://repository.library.georgetown.edu/handle/10822/1044538#?m=7)
+
++++
+
 ### View the new collection theme
 ![Live Demo Image](presentation-files/LiveDemo.png)
+- Note that the default theme is still in place
 - Note that the new theme is scoped only to one collection
 
 ---
