@@ -167,7 +167,7 @@ dspace/config/dspace.cfg
 @[17](Install built files to server)
 @[18](Start Tomcat)
 
-+++?code=dspace/config/dspace.cfg
++++?code=dspace/config/dspace.cfg?lang=AsciiDoc
 @[19](Basic System Config: directories, servers, email, database)
 @[182](DOI Configuration)
 @[227](Handle Configuration)
@@ -185,7 +185,7 @@ dspace/config/dspace.cfg
 @[1422](Sherpa/Romeo)
 @[1434](Authority Control)
 @[1590](JSPUI Config)
-@[1828](XMLUI Config)
+@[1829](XMLUI Config)
 ### While the build is running...
 
 +++
