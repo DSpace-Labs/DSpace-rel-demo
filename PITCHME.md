@@ -362,6 +362,7 @@ dspace/config/xmlui.xconf
 - [Digital Services Tools in File Analyzer](https://github.com/Georgetown-University-Libraries/File-Analyzer/wiki/File-Analyzer-at-Georgetown---Solutions-for-Digital-Services)
 - [DSpace 6 REST Reporting Tools](https://github.com/terrywbrady/restReportTutorial/blob/master/README.md)
 - [IIIF Image Viewer Integrated with DSpace](https://repository.library.georgetown.edu/handle/10822/1044538#?m=7)
+- [Generating IIIF Manifests with File Analyzer](https://github.com/Georgetown-University-Libraries/File-Analyzer-Test-Data/blob/master/iiif/README.md)
 - [Running DSpace on Codenvy](https://github.com/DSpace-Labs/DSpace-codenvy/blob/master/README.md) 
 - [Running DSpace with Docker Tutorial](https://github.com/DSpace-Labs/DSpace-Docker-Images/blob/master/tutorial.md)
 
