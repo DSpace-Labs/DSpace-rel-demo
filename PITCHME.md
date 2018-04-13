@@ -124,15 +124,16 @@ Workspace initialization script - already run
 
 +++?image=presentation-files/code1.png
 
++++
+
+### Property changes are made in **dspace/config/dspace.cfg**
+- This file contains hundreds of properties that can be modified
+- Many of the most common customization tasks are captured in this file
+- When testing a change, you can also copy a property change into your local.cfg file
+
 +++?code=https://raw.githubusercontent.com/DSpace-Labs/DSpace-rel-demo/webinar-code1/dspace/config/dspace.cfg
 dspace/config/dspace.cfg
 @[1896](Turn on thumbnail view in xmlui)
-
-+++
-
-### dspace.cfg
-- This file contains hundreds of properties that can be modified
-- Many of the most common customization tasks are captured in this file
 
 +++ 
 
@@ -157,8 +158,7 @@ dspace/config/dspace.cfg
     ant update clean_backups || die "ant update failed"
     ${TOMCAT} run
 
-@[2-7](Codeny workspace config settings)
-@[10](Tomcat server path)
+@[2-10](Environment variable setup)
 @[12](Go to source directory)
 @[13](Local config file contains server specific settings)
 @[14](Run the maven build)
@@ -263,9 +263,9 @@ dspace/config/spring/api/discovery.xml
 
 ### Code change - Graft to Overlay Area
 - Copy the following from the source branch
-  - *dspace-xmlui*/src/main/webapp/i18n/messages.xml
+  - **dspace-xmlui**/src/main/webapp/i18n/messages.xml
 - And graft it into the overlay area
-  - *dspace/modules/xmlui*/src/main/webapp/i18n/messages.xml
+  - **dspace/modules/xmlui**/src/main/webapp/i18n/messages.xml
 
 +++?code=https://raw.githubusercontent.com/DSpace-Labs/DSpace-rel-demo/webinar-code2c/dspace/modules/xmlui/src/main/webapp/i18n/messages.xml&lang=xml
 i18n/messages.xml
@@ -312,9 +312,9 @@ i18n/messages.xml
 
 ### Code change - Graft to Overlay Area
 - Copy the following from the source branch
-  - *dspace-xmlui*/src/main/webapp/themes/*Mirage*/sitemap.xmap
+  - **dspace-xmlui**/src/main/webapp/themes/**Mirage**/sitemap.xmap
 - And graft it into the overlay area
-  - *dspace/modules/xmlui*/src/main/webapp/themes/*Demo*/sitemap.xmap
+  - **dspace/modules/xmlui**/src/main/webapp/themes/**Demo**/sitemap.xmap
 
 +++?code=https://raw.githubusercontent.com/DSpace-Labs/DSpace-rel-demo/webinar-code3/dspace/modules/xmlui/src/main/webapp/themes/Demo/sitemap.xmap&lang=xml
 themes/Demo/sitemap.xmap
@@ -351,7 +351,20 @@ dspace/config/xmlui.xconf
 
 ---
 
-### Questions
+### Questions?
+
+---
+
+### Other Links We (Georgetown University Library) Are Excited to Share
+
+@ul
+
+- [Digital Services Tools in File Analyzer](https://github.com/Georgetown-University-Libraries/File-Analyzer/wiki/File-Analyzer-at-Georgetown---Solutions-for-Digital-Services)
+- [DSpace 6 REST Reporting Tools](https://github.com/terrywbrady/restReportTutorial/blob/master/README.md)
+- [IIIF Image Viewer Integrated with DSpace](https://repository.library.georgetown.edu/handle/10822/1044538#?m=7)
+- [Running DSpace on Codenvy](https://github.com/DSpace-Labs/DSpace-codenvy/blob/master/README.md) 
+
+@ulend
 
 --- 
 
