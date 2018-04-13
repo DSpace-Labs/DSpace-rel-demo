@@ -42,6 +42,7 @@ https://github.com/terrywbrady/info
 - Not all of the code changes will make immediate sense
 - The key is to see HOW the changes are made
 - Once you know HOW to change something in DSpace, other types of changes are easy to learn
+- As we rebuild DSpace, I will share some DigitalGeorgetown examples
 
 ---
 
@@ -288,19 +289,14 @@ i18n/messages.xml
 
 +++
 
-### Note the presence of the dc.type field
+### dc.type field
 
 ![Live Demo Image](presentation-files/LiveDemo.png)
 
-- Submit a new item, note that the field is now mandatory
-- Look for type and subject on the item summary page
-- Look for the type facet
+- Item Submission - type  is now mandatory
+- Item Page - type and subject are displayed
+- Collection page - see the type facet
 - Re-index content if needed `[dspace-install]/bin/dspace index-discovery -b`
-
-+++
-
-### Note the additional facet counts
-![Live Demo Image](presentation-files/LiveDemo.png)
 
 ---
 
