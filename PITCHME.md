@@ -338,6 +338,19 @@ dspace/config/xmlui.xconf
 
 ---
 
+### Key Points
+
+@ul
+
+- DSpace has great tools for ingesting new collections
+- Once you are comfortable rebuilding DSpace, there is a lot you can customize
+- The community is friendly and helpful: [DSpace Support](https://wiki.duraspace.org/display/DSPACE/Support)
+- The community is appreciative of volunteers and is always looking for contributors, testers, and participation: [Community Lists](https://wiki.duraspace.org/display/DSPACE/Mailing+Lists)
+
+@ulend
+
+---
+
 ### Questions
 
 --- 
