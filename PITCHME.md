@@ -121,7 +121,7 @@ Workspace initialization script - already run
 
 - Branch: webinar-code1
 - [Pull Request](https://github.com/DSpace-Labs/DSpace-rel-demo/pull/2/files)
-- Rebuild system
+- **Start Rebuild**
 
 +++?image=presentation-files/code1.png
 
@@ -256,7 +256,7 @@ themes/Mirage/Mirage.xsl
 
 - Branch: webinar-code2c
 - [Pull Request](https://github.com/DSpace-Labs/DSpace-rel-demo/pull/5)
-- Rebuild system
+- **Start Rebuild**
 
 +++?image=presentation-files/code2c.png
 
@@ -312,6 +312,7 @@ i18n/messages.xml
 
 - Branch: webinar-code3
 - [Pull Request](https://github.com/DSpace-Labs/DSpace-rel-demo/pull/6)
+- **Start Rebuild**
 
 +++?image=presentation-files/code3.png
 
