@@ -123,8 +123,7 @@ Workspace initialization script - already run
 - [Pull Request](https://github.com/DSpace-Labs/DSpace-rel-demo/pull/2/files)
 - **Start Rebuild**
 
-+++
-![Screen Capture](presentation-files/code1.png)
++++?image=presentation-files/code1.png&size=auto 90%
 
 +++
 
@@ -216,8 +215,7 @@ dspace/config/dspace.cfg
 - Branch: webinar-code2
 - [Pull Request](https://github.com/DSpace-Labs/DSpace-rel-demo/pull/3/files)
 
-+++
-![Screen Capture](presentation-files/code2a.png)
++++?image=presentation-files/code2a.png&size=auto 90%
 
 +++?code=https://raw.githubusercontent.com/DSpace-Labs/DSpace-rel-demo/webinar-code2/dspace/config/input-forms.xml
 dspace/config/input-forms.xml
@@ -232,8 +230,7 @@ dspace/config/input-forms.xml
 - Branch: webinar-code2b
 - [Pull Request](https://github.com/DSpace-Labs/DSpace-rel-demo/pull/4)
 
-+++
-![Screen Capture](presentation-files/code2b.png)
++++?image=presentation-files/code2b.png&size=auto 90%
 
 +++
 
@@ -261,8 +258,7 @@ themes/Mirage/Mirage.xsl
 - [Pull Request](https://github.com/DSpace-Labs/DSpace-rel-demo/pull/5)
 - **Start Rebuild**
 
-+++
-![Screen Capture](presentation-files/code2c.png)
++++?image=presentation-files/code2c.png&size=auto 90%
 
 +++?code=https://raw.githubusercontent.com/DSpace-Labs/DSpace-rel-demo/webinar-code2c/dspace/config/spring/api/discovery.xml
 dspace/config/spring/api/discovery.xml
@@ -318,8 +314,7 @@ i18n/messages.xml
 - [Pull Request](https://github.com/DSpace-Labs/DSpace-rel-demo/pull/6)
 - **Start Rebuild**
 
-+++
-![Screen Capture](presentation-files/code3.png)
++++?image=presentation-files/code3.png&size=auto 90%
 
 +++
 
