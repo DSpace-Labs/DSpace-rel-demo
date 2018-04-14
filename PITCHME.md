@@ -169,6 +169,7 @@ dspace/config/dspace.cfg
 @[18](Start Tomcat)
 
 +++?code=dspace/config/dspace.cfg?lang=AsciiDoc
+@[1](While the build is running...)
 @[19](Basic System Config: directories, servers, email, database)
 @[182](DOI Configuration)
 @[227](Handle Configuration)
@@ -187,32 +188,5 @@ dspace/config/dspace.cfg
 @[1434](Authority Control)
 @[1590](JSPUI Config)
 @[1829](XMLUI Config)
-### While the build is running...
 
-+++
 
-### Browse site and see thumbnails
-![Live Demo Image](presentation-files/LiveDemo.png)
-
----
-
-### Ingest 2A: Create items from metadata only
-
-- [Metadata Upload CSV](https://github.com/DSpace-Labs/DSpace-codenvy/blob/master/TestData/metadataUpload.csv)
-
-+++
-
-### Demo 2 - Tour the Collection
-![Live Demo Image](presentation-files/LiveDemo.png)
-- Note the facets that are present
-- Note the items that have been added
-- Manually submit an item to the collection
-
----
-
-### Code 2A - Modify submission workflow
-
-- Branch: webinar-code2
-- [Pull Request](https://github.com/DSpace-Labs/DSpace-rel-demo/pull/3/files)
-
-+++?image=presentation-files/code2a.png&size=auto 90%
