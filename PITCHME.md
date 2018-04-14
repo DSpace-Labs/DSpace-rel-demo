@@ -48,7 +48,7 @@ https://github.com/terrywbrady/info
 
 ### DSpace Code Overview
 
-![DSpace Overlay Illustration](presentation-files/DSpace%20Overlays.jpg)
+![DSpace Overlay Illustration](presentation-files/DSpaceOverlays.jpg)
 
 +++
 
@@ -123,7 +123,8 @@ Workspace initialization script - already run
 - [Pull Request](https://github.com/DSpace-Labs/DSpace-rel-demo/pull/2/files)
 - **Start Rebuild**
 
-+++?image=presentation-files/code1.png
++++
+![Screen Capture](presentation-files/code1.png)
 
 +++
 
@@ -215,7 +216,8 @@ dspace/config/dspace.cfg
 - Branch: webinar-code2
 - [Pull Request](https://github.com/DSpace-Labs/DSpace-rel-demo/pull/3/files)
 
-+++?image=presentation-files/code2a.png
++++
+![Screen Capture](presentation-files/code2a.png)
 
 +++?code=https://raw.githubusercontent.com/DSpace-Labs/DSpace-rel-demo/webinar-code2/dspace/config/input-forms.xml
 dspace/config/input-forms.xml
@@ -230,7 +232,8 @@ dspace/config/input-forms.xml
 - Branch: webinar-code2b
 - [Pull Request](https://github.com/DSpace-Labs/DSpace-rel-demo/pull/4)
 
-+++?image=presentation-files/code2b.png
++++
+![Screen Capture](presentation-files/code2b.png)
 
 +++
 
@@ -258,7 +261,8 @@ themes/Mirage/Mirage.xsl
 - [Pull Request](https://github.com/DSpace-Labs/DSpace-rel-demo/pull/5)
 - **Start Rebuild**
 
-+++?image=presentation-files/code2c.png
++++
+![Screen Capture](presentation-files/code2c.png)
 
 +++?code=https://raw.githubusercontent.com/DSpace-Labs/DSpace-rel-demo/webinar-code2c/dspace/config/spring/api/discovery.xml
 dspace/config/spring/api/discovery.xml
@@ -314,7 +318,8 @@ i18n/messages.xml
 - [Pull Request](https://github.com/DSpace-Labs/DSpace-rel-demo/pull/6)
 - **Start Rebuild**
 
-+++?image=presentation-files/code3.png
++++
+![Screen Capture](presentation-files/code3.png)
 
 +++
 
