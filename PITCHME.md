@@ -52,3 +52,47 @@ https://github.com/terrywbrady/info
 
 +++
 
+### DSpace Code
+- [DSpace 6x "Source" Code Branch](https://github.com/DSpace/DSpace/tree/dspace-6_x)
+- [DSpace 6.2 Release Packages](https://github.com/DSpace/DSpace/releases/tag/dspace-6.2)
+
++++
+
+### DSpace Code
+- [DSpace 6.2 "Release" Code - For This Demo](https://github.com/DSpace-Labs/DSpace-rel-demo)
+  - This is what we will modify
+
+---
+
+### Running DSpace
+
+@ul
+
+- You need a runtime environment for your code 
+- A server with tomcat and a postgres database (linux preferred) 
+- Docker or Vagrant containers (development tools) 
+- Cloud development environment like Codenvy (codenvy.com) 
+- For this presentation, Codenvy will be used 
+
+@ulend
+
++++
+
+### After the webinar, try it yourself!
+- [This page](https://github.com/DSpace-Labs/DSpace-codenvy/blob/master/README.md) describes how you can configure a site on Codenvy
+- [Codenvy Factory for this demo](https://codenvy.io/dashboard/#/load-factory/factoryk1vrec8gxat0diz6)
+
+---
+
+### Understanding Ingest Options
+- Becoming comfortable with the ingest options for DSpace is a key way to make DSpace your own
+- We will review a couple of options
+
++++ 
+
+### Ingest into DSpace
+
+![DSpace Ingest Options Illustration](presentation-files/DSpaceIngest.jpg)
+
+---
+
