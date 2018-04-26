@@ -10,4 +10,15 @@ This repository contains the "release" version of the DSpace code rather than th
 
 ### Apr 2018 [Making DSpace 6 Your Own Webinar](http://www.duraspace.org/news/registration-open-%E2%80%9Cmaking-dspace-your-own%E2%80%9D-webinar)
 
-- [![GitPitch](https://gitpitch.com/assets/badge.svg)](https://gitpitch.com/DSpace-Labs/DSpace-rel-demo/webinar?grs=github)
+- Presentation Slides: [![GitPitch](https://gitpitch.com/assets/badge.svg)](https://gitpitch.com/DSpace-Labs/DSpace-rel-demo/webinar?grs=github)
+- [Presentation Video](https://www.slideshare.net/DuraSpace/42418-making-dspace-your-own-webinar-recording)
+- [Codenvy Workspace Factory](https://codenvy.io/dashboard/#/load-factory/factoryk1vrec8gxat0diz6)
+- [Codenvy Build Scripts and Test Data](https://github.com/DSpace-Labs/DSpace-codenvy)
+- Branches used in this tutorial: 
+  - webinar - presentation resources
+  - webinar-code1
+  - webinar-code2
+  - webinar-code2b
+  - webinar-code2c
+  - webinar-code3
+  
