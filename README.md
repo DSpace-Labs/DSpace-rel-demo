@@ -6,6 +6,8 @@ See https://github.com/DSpace/DSpace for an overview of the DSpace project and f
 
 This repository contains the "release" version of the DSpace code rather than the complete code base.
 
+The code in this repository is intended to support DSpace tutorials and presentations.
+
 # Presentation/Branch References
 
 ### Apr 2018 [Making DSpace 6 Your Own Webinar](http://www.duraspace.org/news/registration-open-%E2%80%9Cmaking-dspace-your-own%E2%80%9D-webinar)
