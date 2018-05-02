@@ -12,7 +12,7 @@ The code in this repository is intended to support DSpace tutorials and presenta
 
 ### OR 2018: DSpace REST Reporting Tools – A REST Based Application within DSpace 6
 - Slides: TBD
-- [Tutorial and Test Data](https://github.com/terrywbrady/restReportTutorial/blob/master/README.md)
+- [Tutorial and Test Data](https://terrywbrady.github.io/restReportTutorial/demo1/)
 - Branches Used in this tutorial
   - restrpt
 
