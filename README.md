@@ -22,8 +22,7 @@ The code in this repository is intended to support DSpace tutorials and presenta
 - Branches Used in this tutorial
   - master
 
-### Apr 2018 [Making DSpace 6 Your Own Webinar](http://www.duraspace.org/news/registration-open-%E2%80%9Cmaking-dspace-your-own%E2%80%9D-webinar)
-
+### Apr 2018 Making DSpace 6 Your Own Webinar
 - Presentation Slides: [![GitPitch](https://gitpitch.com/assets/badge.svg)](https://gitpitch.com/DSpace-Labs/DSpace-rel-demo/webinar?grs=github)
 - [Presentation Video](https://www.slideshare.net/DuraSpace/42418-making-dspace-your-own-webinar-recording)
 - [Codenvy Workspace Factory](https://codenvy.io/dashboard/#/load-factory/factoryk1vrec8gxat0diz6)
