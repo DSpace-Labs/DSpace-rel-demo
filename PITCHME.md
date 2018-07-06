@@ -6,6 +6,8 @@ Georgetown University Library
 
 https://github.com/terrywbrady/info
 
+[Presentation Recording](https://www.slideshare.net/DuraSpace/42418-making-dspace-your-own-webinar-recording)
+
 ![](https://www.library.georgetown.edu/sites/default/files/library-logo.png)
 
 ---
