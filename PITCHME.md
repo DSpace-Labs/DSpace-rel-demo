@@ -1,4 +1,4 @@
-## Making DSpace Your Own
+### Making DSpace Your Own
 
 Terry Brady
 
